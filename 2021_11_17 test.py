@@ -44,7 +44,7 @@ print(str(my_num))
 print(str(my_num) + " is my favorite number !")
 ##########################################################################
 my_num = -7
-print(abs(my_num)) 
+print(abs(my_num))
 print(pow(3,2)) # 3 square 2
 print(pow(1.61843,2.71828))
 print(max(1.61843,2.71828))
@@ -60,3 +60,28 @@ print(sqrt(49))
 name = input("Please enter your name : ")
 age = input("Please enter your age : ")
 print("Hello " + name + "! You are " + age + " years old." )
+#################################### 2021/11/18_edit
+num1 = input("Enter a number : ")
+num2 = input("Enter another number : ")
+result = num1 + num2
+print(result)
+print(int(result))
+result = float(num1) + float(num2)
+print(result)
+color = input("Enter a color : ")
+car = input("Enter a car brand : ")
+####################################
+print("My car is " + color)
+print(car + " is my car trademark.")
+####################################
+#### List ##########################
+####################################
+car = ["Maybach","Lexus","Mazda","Ford","Toyota"]
+print(car,car[1],car[1:3])
+####################################
+#### List Functions ################
+####################################
+lucky_numbers =[7,77,777,7777,77777,777777]
+car = ["Maybach","Lexus","Mazda","Ford","Toyota"]
+car.extend(lucky_numbers)
+print(car)
